@@ -26,6 +26,7 @@ body {
     height: 100%;
     width: var(--progress, 0%);
     background-color: aquamarine;
+    transition: width 200ms ease-out;
 }
 
 .slider .handle {
@@ -37,6 +38,7 @@ body {
     cursor: grab;
     background-color: darkcyan;
     position: absolute;
+    transition: left 200ms ease-out;
 }
 
 .slider .value {
